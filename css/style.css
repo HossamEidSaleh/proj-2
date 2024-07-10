@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.backphoto {
+    background-image: url(../images/blue_bg.png);
+    background-size: 100% 670px;
+    background-repeat: no-repeat;
+    height: 800px;
+    position: relative;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    right: 100px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0.6rem 1.4rem;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    color: rgb(149, 91, 182);
+}
+.navbar ul li:hover span{
+    display: block;
+    width: 70px;
+    height: 2px;
+    background-color: rgb(149, 91, 182);
+    margin-top: 3px;
+    transition: all .5s ease;
+}
+.navbar button{
+    
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: white;
+    padding: 12px 18px;
+    border-radius: 33%;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    border: 0;
+    
+}
+.navbar button:hover{
+    transform: scale(1.1);
+    color:rgb(193, 119, 236) ;
+}
+.navbar img{
+   
+    width: 150px;
+    height: 80px;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    
+}
+
+.divleft{
+    margin-top: 130px;
+    margin-left: 100px;
+}
+.divleft h1{
+    font-size:50px ;
+   font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+.divleft h1 span {
+    color: #96318D;
+}
+.divleft p{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(43, 42, 42);
+    line-height: 40px;
+    padding-top: 10px;
+}
+
+.divright {
+    position: relative;
+    width: 43%;
+    margin-left: 100px;
+    
+}
+
+.divright img{
+    vertical-align: middle;
+    border-style: none;
+    margin-left: 70px;
+}
+.first{
+    position: absolute;
+    top: -15%;
+    left: -15%;
+    width: 100%;
+}
+.second{
+   
+   position: absolute;
+    width: 45%;
+    left: 10%;
+    top: 0;
+}
+.third{
+    
+
+     position: absolute;
+     width: 60%;
+     left: 5%;
+     top: 80%;
+}
+.forth{
+
+    position: absolute;
+    width: 290%;
+    height: 60%;
+    opacity: 1.5;
+    top: 140%;
+    right: 40%;
+    opacity: 1.5;
+}
+
+/* ////////////////section 222222 */
+.secondSec{
+    position: relative;
+    text-align: center;
+    padding: 0px 100px;
+    height: 120vh;
+}    
+.sec2ground {
+    position: absolute;
+    width: 65%;
+    top: 8%;
+    left: 22%;
+    height: 60%;
+}
+.threedivs div {
+    width: 400px;
+}
+
+.threedivs .div1 {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+}
+
+.threedivs .div2 {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+}
+
+.threedivs .div3 {
+    position: absolute;
+    top: 65%;
+    right: 12%;
+}
+
+.div4 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+.threedivs div img {
+    width: 250px;
+}
+
+.threedivs div h3 {
+    color: #999;
+    font-size: 25px;
+}
+.threedivs div p {
+    color: #b9b9b9;
+    font-size: 20px;
+    line-height: 35px;
+}
+.div4all {
+    position: relative;
+    margin-top: 80px;
+}
+.div4all img {
+    width: 350px;
+}
+.div4all div {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: left;
+}
+.div4all div p {
+    color: white;
+    font-size: 25px;
+}
+.div4all div h3 {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+
+/* /////////////........section3333333 */
+
+.thirdSec {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainDiv {
+    padding: 0 30px;
+}
+.mainDiv h3 {
+    color: #999;
+    font-size: 25px;
+}
+
+.mainDiv p {
+    color: #b9b9b9;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* ///////.......footer */
+
+footer {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+.bgfooter {
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+    top: 0;
+}
+
+
+.people {
+    position: absolute;
+    width: 40vw;
+    right: 10%;
+    bottom: 0%;
+}
+
+footer .footertext {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+footer .footerBtn {
+    position: relative;
+    width: 130px;
+    height: 50px;
+    margin-right: 35px;
+}
+footer .footerBtn .btnImg {
+    width: 130px;
+    height: 50px;
+}
+footer .footerBtn div {
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    display: flex;
+    align-items: center;
+}
+footer .footerBtn div p {
+    font-size: 12px;
+    color: #333;
+}
+footer .footerBtn div span {
+    display: block;
+    color: #7a3d8a;
+    font-size: 18px;
+}
+.socialimgs {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.socialimgs img {
+    width: 25px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 30px;
+}
+footer ul li a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer ul li a:hover{
+    color: rgb(149, 91, 182);
+}
